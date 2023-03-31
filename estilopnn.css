@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Empieza body */
+
+body {
+  margin: 0;
+  background-image: url("Imagenes/fondodepantala.png");
+  font-family: "Roboto", sans-serif;
+}
+
+/* Empieza haeder */
+
+#header {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+/* Empieza barra de dezplacamiento */
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #04AA6D;
+  width: 0%;
+}
+
+/* Empieza haeder.perfil */
+
+.perfil {
+  padding: 2px;
+}
+
+.perfil img {
+  margin: 10px auto;
+  display: block;
+  width: 120px;
+  border: 8px solid #2c2f3f;
+  border-radius: 50%;
+}
+
+.perfil h1 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  text-align-last: center;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+#header .perfil h1 a,
+#header .perfil h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Empiez< haeder.nav */
+
+.nav-menu {
+  padding: 30px 0 0 0;
+}
+
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu>ul>li {
+  position: relative;
+  white-space: nowrap;
+
+}
+
+
+.nav-menu i {
+  font-size: 20px;
+}
+
+.nav-menu a {
+  display: flex;
+  align-items: center;
+  color: #a8a9b4;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  font-size: 25px;
+
+}
+
+.nav-menu a:hover,
+.nav-menu .activ,
+.nav-menu .activ:focus,
+.nav-menu li:hover>a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-menu a:hover i,
+.nav-menu .activ i,
+.nav-menu .activ:focus i,
+.nav-menu li:hover>a i {
+  color: #FDF3FB;
+}
+
+/* Empieza content */
+
+#content {
+  margin-left: 300px;
+  padding-left: 20px;
+
+}
+
+/* Conteiner */
+
+.inicio-container {
+  
+  border-radius: 10px;
+}
+
+/* Empieza datos personales */
+
+.personal {
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid #ddd;
+}
+
+.personal li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Lista */
+
+.lista-a {
+  list-style-position: inside;
+  background: #FDF3FB;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.lista-a li {
+  margin: 5px;
+}
+
+/* h3 h4 */
+
+#content h3,
+#content h4,
+#content h5,
+#content p {
+  padding-left:  20px;
+}
+
+/* Empieza division de titulos */
+
+
+.titulo-div h1,
+.titulo-div h2 {
+  font-size: 30px;
+  color: #a8a9b4;
+  width: 100%;
+  text-align: center;
+
+  margin-inline-end: 15px;
+}
+
+.irrel {
+  
+  padding: 10px;
+}
+
+/* Empieza footer */
+
+#footer p {
+  font-family: "Roboto";
+  padding-left: 5px;
+}
+
+footer {
+  padding: 0 2px;
+  color: #f4f6fd;
+  font-size: 14px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  z-index: 9999;
+  background: #040b14;
+}
+
+/* FIN */
